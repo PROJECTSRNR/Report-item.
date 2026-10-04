@@ -1,0 +1,18 @@
+SRNR LOST & FOUND — วิธีขึ้น GitHub แบบสั้น
+
+A) Apps Script
+1. เอา apps-script/Code.gs ไปแทน Code.gs ของเดิม
+2. Deploy > Manage deployments > ดินสอ > New version > Deploy
+3. Execute as: Me
+4. Who has access: Anyone
+5. ใช้ URL เดิมนี้ได้:
+https://script.google.com/macros/s/AKfycbwp3h5Hr-a5X12F1wfUgllVkAr-RP1uJLrz1N4GvQAdZZdWGVbpzd253Z6dOwon9gkU/exec
+
+B) GitHub
+1. สร้าง repository เช่น srnr-lost-found
+2. อัปโหลด index.html, .nojekyll และโฟลเดอร์ assets
+3. Settings > Pages > Deploy from a branch
+4. เลือก main และ /(root)
+5. Save
+
+หน้าเว็บ GitHub จะใช้ Apps Script เป็นฐานข้อมูล/API อยู่เบื้องหลัง
